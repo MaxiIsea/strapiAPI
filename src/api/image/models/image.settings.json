@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "images",
+  "info": {
+    "name": "Image"
+  },
+  "attributes": {
+    "risk1": {
+      "type": "integer"
+    },
+    "risk2": {
+      "type": "integer"
+    },
+    "schema": {
+      "type": "boolean"
+    },
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "allowedTypes": ["images"]
+    }
+  }
+}

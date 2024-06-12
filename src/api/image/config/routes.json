@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/images/:risk1/:risk2/:schema",
+      "handler": "custom.findByRisk",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

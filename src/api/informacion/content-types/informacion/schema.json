@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "informacions",
+  "info": {
+    "singularName": "informacion",
+    "pluralName": "informacions",
+    "displayName": "Informacion"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "info": {
+      "type": "text"
+    }
+  }
+}
