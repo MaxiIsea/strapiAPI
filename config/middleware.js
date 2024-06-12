@@ -9,8 +9,4 @@ module.exports = ({ env }) => [
   'strapi::session',
   'strapi::favicon',
   'strapi::public',
-  {
-    name: 'custom-upload',
-    resolve: './middlewares/custom-upload',
-  },
 ];
